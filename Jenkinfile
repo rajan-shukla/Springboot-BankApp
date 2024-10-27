@@ -8,7 +8,7 @@ pipeline {
        stage('Clone Repository') {
            steps {
                // Clone the repository
-               git branch: 'master', url: 'https://github.com/rajan-shukla/Springboot-BankApp'
+               git branch: 'DevOps', url: 'https://github.com/rajan-shukla/Springboot-BankApp'
            }
        }
        stage('Build Docker Image') {
